@@ -96,7 +96,18 @@ for(index,valor) in personas.enumerated(){
 print("Hay \(c) personas que tienen 2 o más hermanos")
 
 
-//Crear formato de nombre
+//Crear formato de nombre. Ejemplo  “Luis Inga M.”
+for(index,valor) in personas.enumerated(){
 
+    valor.nombre
+    valor.apellidop
+    valor.apellidom
+    let nom = valor.nombre
+    let r = nom.split(separator: " ")
+    let apem = valor.apellidom
+    let r2 = apem.components(separatedBy: "")
+    print(r.first , valor.apellidop, r2.first)
+    
+}
 
 //Crear usuario
