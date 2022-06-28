@@ -15,18 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-wallpaper-fondo-de-pantalla-s24-2021" translatesAutoresizingMaskIntoConstraints="NO" id="7Nq-aB-DMi">
+                                <rect key="frame" x="-83" y="0.0" width="579" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="torre-de-pc" translatesAutoresizingMaskIntoConstraints="NO" id="6GF-Zs-LmK">
+                                <rect key="frame" x="43" y="308" width="328" height="280"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="6GF-Zs-LmK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="264" id="6Vj-Os-agm"/>
+                            <constraint firstItem="6GF-Zs-LmK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Aq3-2u-ghx"/>
+                            <constraint firstItem="6GF-Zs-LmK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="FIH-MN-VR6"/>
+                            <constraint firstItem="6GF-Zs-LmK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bvI-wN-eHI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="iphone-wallpaper-fondo-de-pantalla-s24-2021" width="1080" height="2335"/>
+        <image name="torre-de-pc" width="170.66667175292969" height="170.66667175292969"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
